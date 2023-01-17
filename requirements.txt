@@ -1,0 +1,6 @@
+networkx==2.7.1
+numpy==1.21.2
+numba==0.55.1
+altair==4.1.0
+pandas==1.4.1
+prettytable==3.3.0
