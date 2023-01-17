@@ -7,7 +7,7 @@ Main contributions of our paper are as follows.
 2. We propose a novel GNN model called **Flex-Net** with an unsupervised-learning strategy to jointly optimize communication direction and transmit power to maximize the sum-rate of the flexible duplex network.
 3. We compare numerical results obtained by extensive simulations using the proposed GNN with baselines listed in Table below. We show that the proposed method outperforms baselines in terms of performance and time complexity. Furthermore, we analyze the sample complexity, scalability, and generalization capability of the proposed approach.
 
-<center>
+<div style="margin: 0 auto 0 auto; display: block; width: 70%">
 
 | Approach                    | Time Complexity         | Performance (avg.) |
 |-----------------------------|-------------------------|--------------------|
@@ -17,7 +17,7 @@ Main contributions of our paper are as follows.
 | Max Power                   | $\mathcal{O}(n)$        | 49.9\%             |
 | Max Power with Silent Nodes | $\mathcal{O}(n^2)$      | 67.5\%             |
 
-</center>
+</div>
 
 ## Setup
 
