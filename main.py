@@ -38,7 +38,7 @@ def eval_model(path, k, noise_var):
     data_t = gen_rectangular_channel_matrix(k, k, n, seed=899)
 
     new_data = flex_graph(data_t)
-    new_data = iter(DataLoader(new_data, batch_size=n, shuffle=False)).next()
+    new_data = next(iter(DataLoader(new_data, batch_size=n, shuffle=False)))
 
     outs = model(new_data)
     p, t = outs

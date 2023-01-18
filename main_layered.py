@@ -46,7 +46,7 @@ def eval_model(path, data, k=32, aggr='add', layers=3):
     model.load_state_dict(torch.load(path, map_location=torch.device('cpu')), strict=False)
     model.eval()
 
-    new_data = iter(DataLoader(data, batch_size=n, shuffle=False)).next()
+    new_data = next(iter(DataLoader(data, batch_size=n, shuffle=False)))
     outs = model(new_data)
     p, t = outs
     t = torch.where(t >= 0.5, 1., 0.)
