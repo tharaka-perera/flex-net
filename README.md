@@ -32,7 +32,7 @@ Main contributions of our paper are as follows.
 
 ## Cite
 
-Please cite [our paper]() if you use this code in your own work:
+Please cite [our paper](https://ieeexplore.ieee.org/document/10118726) if you use this code in your own work:
 
 ```
 @inproceedings{
